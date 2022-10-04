@@ -1,0 +1,15 @@
+Test 1 Failed
+
+Input 1: 
+4 8
+2 7 5 1
+
+Expected Output : 
+2 4
+
+Obtained Output : 
+4 2
+
+
+________________________________________________________
+
