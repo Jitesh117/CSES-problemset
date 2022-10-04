@@ -1,0 +1,13 @@
+Test 1 Failed
+
+Input 1: 
+AAAACACBA
+
+Expected Output : 
+AACABACAA
+
+Obtained Output : 
+AAACBCAAA
+
+________________________________________________________
+
