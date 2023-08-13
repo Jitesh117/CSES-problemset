@@ -4,7 +4,7 @@ typedef long long ll;
 typedef vector<int> vi;
 typedef vector<long long> vl;
 
-#define nline  "\n"
+#define nline "\n"
 #define pb push_back
 #define PI 3.141592653589793238462
 
@@ -67,14 +67,13 @@ void solve()
 {
     ll n;
     cin >> n;
-    ll sum = 0;
-    for (ll i = 0; i < n - 1;i++)
-    {
-        ll x;
+    ll sum = n * (n + 1) / 2;
+    for (int i = 0; i < n - 1; i++){
+        int x;
         cin >> x;
-        sum += x;
+        sum -= x;
     }
-    cout << (n * (n + 1)) / 2 - sum << nline;
+    cout << sum << endl;
 }
 
 int main()
