@@ -1,0 +1,14 @@
+Test 1 Passed
+
+Input 1: 
+ATTCGGGA
+
+Expected Output : 
+3
+
+Obtained Output : 
+3
+
+
+________________________________________________________
+
